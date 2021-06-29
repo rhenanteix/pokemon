@@ -1,0 +1,54 @@
+.stats {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.stats-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-progress-bar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat-name-container {
+    flex: 3;
+}
+
+.stat-bar-container {
+    flex: 7;
+}
+
+.stat-title {
+    text-transform: capitalize;
+}
+
+
+@media screen and (max-width:768px) {
+    .detail-progress-bar {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .stat-title {
+        text-transform: capitalize;
+    }
+    
+}

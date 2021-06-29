@@ -1,0 +1,19 @@
+.navbar {
+    background-color: var(--primary-yellow);
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .navbar-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .navbar-icon {
+      color: var(--primary-blue);
+  }
