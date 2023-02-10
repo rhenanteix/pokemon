@@ -29,7 +29,7 @@ function App() {
       ) : (
         <div className="start-menu">
           <div className="red-background position-start-item">
-            <img src={logo} />
+            <img src={logo} alt="logo" />
           </div>
           <div className="ball-middle"></div>
           <div className="white-background position-start-item">
